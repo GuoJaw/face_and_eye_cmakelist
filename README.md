@@ -1,4 +1,5 @@
-
+## intr
+	代码中的cmakelists.txt写法（嵌套cmakelists.txt 和 生成动态库.so）
 
 ##  1_制作眼睛数据集
         ## Intro
@@ -21,7 +22,7 @@
         ## Dependencies
             Caffe-MobileNet-SSD    
 
-##  3_嵌套CMakelist写法
+##  3_嵌套CMakelist写法 **
 	1_生成.so库——功能介绍：
 		[0] CMakeLists.txt：在bin下生成mobilenet_ssd可执行文件，最后add_subdirectory调用下面的三个子目录中的CMakelists.txt
 		[1] classifer中的CMakelists.txt: 只用classifer.cpp生成动态库Classifer_SSD.so
